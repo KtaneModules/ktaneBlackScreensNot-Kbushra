@@ -22,7 +22,10 @@ MonoBehaviour:
     Manual: https://www.dropbox.com/t/nMqxKrCgJqlKe9vH
 
 
-    Github: https://github.com/Kbushra/ktaneBlackScreens'
+    Github: https://github.com/Kbushra/ktaneBlackScreens
+
+
+    Repo manual add?? : https://www.dropbox.com/t/rFw1EOMsNgrCoImH'
   version: 1.0
   outputFolder: build
-  previewImage: {fileID: 0}
+  previewImage: {fileID: 2800000, guid: 02ae76fbfefa9aa4abcae38984d94955, type: 3}

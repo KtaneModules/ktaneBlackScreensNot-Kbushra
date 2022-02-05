@@ -35,6 +35,11 @@ public class SimpleModuleScript : MonoBehaviour {
 	bool KeypadUnlocker2 = false;
     bool KeypadUnlocker3 = false;
 
+	public Transform mover;
+	public Transform target;
+	public float t;
+
+
 	void Awake() 
 	{
 		ModuleId = ModuleIdCounter++;
@@ -213,6 +218,13 @@ public class SimpleModuleScript : MonoBehaviour {
 				Log ("Module solved!");
 				module.HandlePass ();
 				break;
+			}
+
+			{
+				Vector3 a = mover.position;
+				Vector3 b = target.position;
+				mover.position = Vector3.Lerp (a, b, t);
+				Invoke ("moveAfter", 0);
 			}
 		}
 
@@ -417,5 +429,13 @@ public class SimpleModuleScript : MonoBehaviour {
 	void Log(string message)
 	{
 		Debug.LogFormat("[Black Screens #{0}] {1}", ModuleId, message);
+	}
+
+	void moveAfter()
+	{
+		Vector3 a = mover.position;
+		Vector3 b = target.position;
+		mover.position = Vector3.Lerp (a, b, t);
+		Invoke ("moveAfter", 0);
 	}
 }
