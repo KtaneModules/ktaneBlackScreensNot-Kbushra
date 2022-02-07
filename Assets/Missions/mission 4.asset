@@ -11,8 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: -548183353, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: mission 4
   m_EditorClassIdentifier: 
-  DisplayName: Infinite tortue
-  Description: kill me
+  DisplayName: 3 by 3 grid
+  Description: 'You do know those 9 buttons dont do anything?
+
+
+    TPOT reference'
   GeneratorSetting:
     TimeLimit: 600
     NumStrikes: 3
@@ -25,7 +28,7 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - blackScreens
+      - blackScreensNot
     - Count: 5
       AllowedSources: 2
       ComponentTypes: 

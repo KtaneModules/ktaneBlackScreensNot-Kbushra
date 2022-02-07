@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: -548183353, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: mission 3
   m_EditorClassIdentifier: 
-  DisplayName: Damn you
-  Description: Dammit, lost the touch again!
+  DisplayName: Amogus
+  Description: When the origonal, not, and imposter unite
   GeneratorSetting:
     TimeLimit: 300
     NumStrikes: 3
@@ -25,13 +25,13 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - AnagramsModule
+      - impostor
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - DoubleOhModule
+      - blackScreensNot
     - Count: 1
       AllowedSources: 2
       ComponentTypes: 

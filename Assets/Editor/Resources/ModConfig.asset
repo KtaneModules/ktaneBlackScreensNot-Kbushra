@@ -11,21 +11,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 615501dbe4f3fe94fbf4b564abb10237, type: 3}
   m_Name: ModConfig
   m_EditorClassIdentifier: 
-  id: blackScreens
-  title: Black Screens
+  id: blackScreensNot
+  title: Not Black Screens
   author: That One Kid
-  description: 'A randomizer module made by an 11 yr old. I am slowly developing i
-    guess...
+  description: 'A black screen module... or is it? DUN DUN DUNNNNN
 
 
-
-    Manual: https://www.dropbox.com/t/nMqxKrCgJqlKe9vH
-
-
-    Github: https://github.com/Kbushra/ktaneBlackScreens
-
-
-    Repo manual add?? : https://www.dropbox.com/t/Cv5VkU7HKcZGTRab'
+    Manual: https://cdn.discordapp.com/attachments/936286293409796176/939908704428503090/Manual.zip'
   version: 1.0
   outputFolder: build
-  previewImage: {fileID: 2800000, guid: 02ae76fbfefa9aa4abcae38984d94955, type: 3}
+  previewImage: {fileID: 2800000, guid: 02d40159c12c4f843827dc2d17ca9e33, type: 3}

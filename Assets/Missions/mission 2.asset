@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: -548183353, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: mission 2
   m_EditorClassIdentifier: 
-  DisplayName: A bomb of suffering
-  Description: An important manual that makes you want to vomit
+  DisplayName: 2 sussy 4 me
+  Description: 2 buttons, 4 children kmselectables, infinite sussiness
   GeneratorSetting:
     TimeLimit: 1200
     NumStrikes: 3
@@ -25,5 +25,5 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - blackScreens
+      - blackScreensNot
   PacingEventsEnabled: 1

@@ -11,8 +11,8 @@ MonoBehaviour:
   m_Script: {fileID: -548183353, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
   m_Name: mission 1
   m_EditorClassIdentifier: 
-  DisplayName: Display your anger
-  Description: NUMBERS AND LETTERS
+  DisplayName: Bakka
+  Description: Fake longing buttons to be clicked
   GeneratorSetting:
     TimeLimit: 900
     NumStrikes: 3
@@ -25,5 +25,5 @@ MonoBehaviour:
       ComponentTypes: 
       SpecialComponentType: 0
       ModTypes:
-      - blackScreens
+      - blackScreensNot
   PacingEventsEnabled: 0
